@@ -5,6 +5,37 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackIT", "TrackIT\TrackIT.csproj", "{02309A31-B6CA-4F00-A169-C108BD134442}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Login", "Login", "{17906FC1-E24A-443E-A7C8-4676242AEE92}"
+	ProjectSection(SolutionItems) = preProject
+		Authentication.cs = Authentication.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{9A495605-3F88-4AD8-A9E4-E385F0C3AF61}"
+	ProjectSection(SolutionItems) = preProject
+		AuthenticationViewModel.cs = AuthenticationViewModel.cs
+		MainViewModel.cs = MainViewModel.cs
+		ViewModelBase.cs = ViewModelBase.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{624693D4-696E-447E-9C74-3CB41DAAD107}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicationController.cs = ApplicationController.cs
+		ApplicationPages.cs = ApplicationPages.cs
+		MyMenuItem.cs = MyMenuItem.cs
+		User.cs = User.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{B11F61AC-EEE4-40B2-BBF7-BFC4F19BE75E}"
+	ProjectSection(SolutionItems) = preProject
+		RelayCommand.cs = RelayCommand.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{FD546AFD-A0CB-4FB4-B98A-FBCB01286D8A}"
+	ProjectSection(SolutionItems) = preProject
+		TrackIT\MainWindow.xaml = TrackIT\MainWindow.xaml
+		TrackIT\MainWindow.xaml.cs = TrackIT\MainWindow.xaml.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
